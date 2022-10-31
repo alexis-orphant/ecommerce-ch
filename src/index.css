@@ -4,3 +4,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    overflow-x: hidden;
+}
+.li-class a.active{
+    color: #ea580c;
+}
