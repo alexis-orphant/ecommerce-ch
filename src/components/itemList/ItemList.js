@@ -22,7 +22,7 @@ const Itemlist = ({ items }) => {
                                 {item.price}
                             </h4>
                             <button className="bg-gray-300 p-2 font-signature text-xl hover:bg-orange-600 duration-200">
-                                <Link to={"/" + item.name + "/" + item.id}>
+                                <Link to={"/item/" + item.id}>
                                     VER MAS
                                 </Link>
                             </button>
