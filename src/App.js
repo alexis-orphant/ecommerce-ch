@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemDetailContainer from "./components/itemList/item/ItemDetailContainer";
 import CartContainer from "./components/cart/CartContainer";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -24,6 +25,9 @@ function App() {
 
                 <Route path="*" element={<h3>la pag no esta creada</h3>} />
             </Routes>
+
+            <Footer/>
+
         </BrowserRouter>
     );
 }

@@ -4,10 +4,10 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <header className="w-screen h-[80px] bg-gray-300 border-b-2 border-black overflow-x-hidden dark:bg-black grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-4 items-center py-3 px-4">
+        <header className="w-screen h-[80px] overflow-x-hidden bg-black grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-4 items-center py-3 px-4">
             <div>
                 <Link to="/">
-                    <h2 className="text-black dark:text-white font-signature text-3xl overflow-hidden">
+                    <h2 className="text-white font-signature text-3xl overflow-hidden">
                         <span className="text-orange-600 text-5xl">Best</span>{" "}
                         Commerce
                     </h2>
@@ -20,7 +20,7 @@ const NavBar = () => {
                 <ul className="flex justify-between">
                     <li className="px-2 li-class">
                         <NavLink to="/">
-                            <p className="text-black dark:text-white font-serif text-lg  hover:text-orange-600 duration-200">
+                            <p className="text-white font-serif text-lg  hover:text-orange-600 duration-200">
                                 All
                             </p>
                         </NavLink>
@@ -29,7 +29,7 @@ const NavBar = () => {
                     <li className="px-2 li-class">
                         <NavLink
                             to="/category/hoodies"
-                            className="text-black dark:text-white font-serif text-lg  hover:text-orange-600 duration-200"
+                            className="text-white font-serif text-lg  hover:text-orange-600 duration-200"
                         >
                             <p>Hoodies</p>
                         </NavLink>
@@ -38,7 +38,7 @@ const NavBar = () => {
                     <li className="px-2 li-class">
                         <NavLink
                             to="/category/pants"
-                            className="text-black dark:text-white font-serif text-lg  hover:text-orange-600 duration-200"
+                            className="text-white font-serif text-lg  hover:text-orange-600 duration-200"
                         >
                             <p>Pants</p>
                         </NavLink>
@@ -47,7 +47,7 @@ const NavBar = () => {
                     <li className="px-2 li-class">
                         <NavLink
                             to="/category/shoes"
-                            className="text-black dark:text-white font-serif text-lg  hover:text-orange-600 duration-200"
+                            className="text-white font-serif text-lg  hover:text-orange-600 duration-200"
                         >
                             <p>Shoes</p>
                         </NavLink>

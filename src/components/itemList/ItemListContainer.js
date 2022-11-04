@@ -44,7 +44,7 @@ const ItemListContainer = () => {
         }
     }, [category]);
     return (
-        <section className="w-screen h-full bg-gray-200 dark:bg-gray-900">
+        <section className="w-screen h-full bg-neutral-300 dark:bg-neutral-900">
             {items.length === 0 ? <Loading /> : <Itemlist items={items} />}
         </section>
     );

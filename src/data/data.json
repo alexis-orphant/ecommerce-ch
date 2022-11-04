@@ -3,7 +3,7 @@
         "id": "1",
         "category": "shoes",
         "name": "Nike Kyrie Low 5",
-        "img": "../assets/kyrie.png",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/kyrie.png",
         "price": "$110",
         "description": "Dismantle the defense in the Nike Kyrie Low 5. Created for quick and crafty players like you, these silhouettes let you utilize your speed and multidirectional ability to stay in control while taking advantage of the separation. The top-loaded Zoom Air unit under the ball of the feet responds to your force with a burst of energy return, while the full-length Cushlon midsole keeps you low to the ground for an enhanced court feel. Designed to help you channel Kyrie’s fierce gameplay, the Nike Kyrie Low 5 lets you reap shots on the court like the ‘ankletaker’."
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "category": "hoodies",
         "name": "Nike Air Crew Fleece", 
-        "img": "../assets/nikeaircrewfleece.png", 
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/nikeaircrewfleece.png", 
         "price": "$60",
         "description": "The Nike Air Crew Fleece is the perfect blend of sporty sleek style ad casual comfort. Crafted from a soft polyester-cotton blend fabric for ultimate comfort, this top also flaunts screen printed graphics on the front and left sleeve that gives you an on-trend look."
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "category": "pants",
         "name": "Nike Tech Fleece GX Joggers",
-        "img": "../assets/NikeTechFleeceGXJoggers.png",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/NikeTechFleeceGXJoggers.png",
         "price": "$130",
         "description": "Big on warmth, not on bulk! Made with Tech fleece fabric, the Nike Tech Fleece GX Jogger delivers impressive warmth, a smooth touch, and an elevated look without adding unnecessary weight or bulk to the design. These joggers come in a standard length and a slim design that tapers at the lower leg, while the ribbed cuffs complete the look for a clean finish. Zipper details and bonding tape give the Nike Tech Fleece GX Jogger a signature Nike look."
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "category": "shoes",
         "name": "Nike LeBron XIX",
-        "img": "../assets/nikelebron.png",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/nikelebron.png",
         "price": "$200",
         "description": "Harness the energy of LeBron on the court with the Nike LeBron XIX. Featuring a full inner fit sleeve, these silhouettes conform to the foot to offer a snug and secure fit that lets you go all out when the game is on the line. Fitted with a retooled cushioning system that combines the 360 degrees visible Max Air with a thick and responsive Zoom Air unit, these sneakers dissipate impact forces and offer you a smooth ride on the court. Sporting LeBron’s logo on the bottom of the shoe, the Nike LeBron XIX lets you take over the court like the ‘KING’."
     },
@@ -35,15 +35,15 @@
         "id": "5",
         "category": "shoes",
         "name": "Under Armour Curry 1 Retro",
-        "img": "../assets/underarmourcurry1retro.png",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/underarmourcurry1retro.png",
         "price": "$130",
         "description": "Own the court like the ‘Golden Boy’ in the Under Armour Curry 1 Retro. Featuring Charged Cushioning that absorbs impact and converts it into responsive quickness, these sneakers offer excellent energy return that lets you cut, drive, and pivot with ease. Sporting an external heel counter that secures your foot and eliminates sliding, the Under Armour Curry 1 Retro keeps you stable and supported as you change the game for good."
     },
     {
         "id": "6",
         "category": "hoodies",
-        "name": "Under Armour Originators Pullover Hoodie",
-        "img": "../assets/underarmouroriginatorspulloverhoodie.png",
+        "name": "Under Armour Originators Pullover",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/underarmouroriginatorspulloverhoodie.png",
         "price": "$80",
         "description": "Bring unmatched performance to your everyday look with the Under Armour Originators Pullover Hoodie. Made with extra-comfy fleece fabric, this vintage-inspired hoodie keeps you warm and toasty while ensuring seamless ventilation and breathability. Take unrivaled style to the streets with the Under Armour Originators Pullover Hoodie!"
     },
@@ -51,23 +51,23 @@
         "id": "7",
         "category": "hoodies",
         "name": "adidas Originals Beach Hoodie",
-        "img": "../assets/adidashoodie.png",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/adidashoodie.png",
         "price": "$54",
         "description": "Cold waves and breezy winds are no longer a concern! Made from fleece fabric, the adidas Originals Beach Hoodie with an athletic-inspired silhouette is designed to keep you warm all-day. A pair of sliders with jersey shorts is one way to slay the casual look!"
     },
     {
         "id": "8",
         "category": "pants",
-        "name": "adidas Tiro Asymmetrical Tape Pants",
-        "img": "../assets/adidastiroasymmetricaltapepants.png",
+        "name": "adidas Tiro Asymmetrical Tape",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/adidastiroasymmetricaltapepants.png",
         "price": "$55",
         "description": "Kick around in style and comfort in the adidas Tiro 21 Taped Pants. With the iconic 3-Stripes running down one leg and the repeating ‘adidas’ wording on the other, these pants take your fashion game to a whole new level. The AEROREADY fabric wicks away sweat to keep you nice and dry as you train, and the softness of these pants keeps you comfy throughout the game. Keep yourself motivated and confident on the field when you put on the adidas Tiro 21 Taped Pants"
     },
     {
         "id": "9",
         "category": "pants",
-        "name": "Jordan Essential Mountainside Graphic Pants",
-        "img": "../assets/jordanessentialmountainsidegraphicpants.png",
+        "name": "Jordan Essential Graphic Pants",
+        "img": "https://raw.githubusercontent.com/alexis-orphant/ecommerce-ch/b1c99327b04339a9c59f55461dcbf787e48344bf/src/assets/jordanessentialmountainsidegraphicpants.png",
         "price": "$69",
         "description": "Gear up for the winter with the Jordan Essential Mountainside Graphic Pants. The heavyweight fleece fabric of these pants is softly brushed on the inside to keep you cozy and warm throughout the day. The coated woven overlays repel light rain to keep you comfortable through less-than-ideal weather. Featuring micrographic hits applied on the thigh and back pocket, the Jordan Essential Mountainside Graphic Pants help you go higher than ever."
     }

@@ -5,7 +5,7 @@ const CartWidget = () => {
     return (
         <>
             <BsCart3
-                className="text-black dark:text-white font-serif text-lg hover:text-orange-600 duration-200"
+                className="text-white font-serif text-lg hover:text-orange-600 duration-200"
                 size={25}
             />
         </>

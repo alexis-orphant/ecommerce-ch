@@ -2,9 +2,13 @@ import React from "react";
 
 const Loading = () => {
     return (
-        <h2 className="text-xl text-center font-bold text-black dark:text-white dark:bg-gray-900 ">
-            Loading...
-        </h2>
+        <div className="w-screen h-screen">
+            <div className="grid place-items-center h-full">
+                <h2 className="text-center font-bold text-8xl py-4 align-middle dark:text-white text-black overflow-hidden">
+                    Loading...
+                </h2>
+            </div>
+        </div>
     );
 };
 

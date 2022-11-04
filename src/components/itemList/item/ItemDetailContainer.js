@@ -44,9 +44,9 @@ const ItemDetailContainer = () => {
     }, [id]);
 
     return (
-        <>
+        <section className="w-screen h-full pb-6 bg-neutral-300 dark:bg-neutral-900">
             {items.length === 0 ? <Loading /> : <ItemDetail items={items} />}
-        </>
+        </section>
     );
 };
 
