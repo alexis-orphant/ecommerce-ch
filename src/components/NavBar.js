@@ -2,6 +2,7 @@ import React from "react";
 import CartWidget from "./CartWidget";
 import { Link, NavLink } from "react-router-dom";
 
+
 const NavBar = () => {
     return (
         <header className="w-screen h-[80px] overflow-x-hidden bg-black grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-4 items-center py-3 px-4">
@@ -52,13 +53,21 @@ const NavBar = () => {
                             <p>Shoes</p>
                         </NavLink>
                     </li>
+                    <li className="px-2 li-class">
+                        <NavLink
+                            to="/category/jackets"
+                            className="text-white font-serif text-lg  hover:text-orange-600 duration-200"
+                        >
+                            <p>Jackets</p>
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
 
             <div className="hidden xl:block "></div>
 
             <div className="justify-self-center">
-                <Link to="/cart" >
+                <Link to="/cart">
                     <CartWidget />
                 </Link>
             </div>

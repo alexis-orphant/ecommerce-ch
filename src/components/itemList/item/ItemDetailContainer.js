@@ -1,51 +1,39 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
+import { getDoc, doc } from "firebase/firestore";
+import { db } from "../../../firebase";
 import { useParams } from "react-router-dom";
-import data from "../../../data/data.json";
 import Loading from "../../Loading";
 import ItemDetail from "./ItemDetail";
 
+
 const ItemDetailContainer = () => {
     const [items, setItems] = useState([]);
+    const [counter, setCounter] = useState(1);
+    const [size, setSize] = useState("");
     const { id } = useParams();
-    console.log(id);
-    useEffect(() => {
-        if (id) {
-            let simulacionPedidoFilter = new Promise((res) => {
-                setTimeout(() => {
-                    res(
-                        data.filter((item) =>
-                            item.id === id ? item : item.cat
-                        )
-                    );
-                }, 2000);
-            });
-            simulacionPedidoFilter
-                .then((respuesta) => {
-                    setItems(respuesta);
-                })
-                .catch((error) => {
-                    console.log(error);
-                });
-        } else {
-            let simulacionPedido = new Promise((res) => {
-                setTimeout(() => {
-                    res(data);
-                }, 2000);
-            });
 
-            simulacionPedido
-                .then((respuesta) => {
-                    setItems(respuesta);
-                })
-                .catch((error) => {
-                    console.log(error);
-                });
-        }
+    const itemRef = doc(db, "products", id);
+    const getItem = getDoc(itemRef);
+    useEffect(() => {
+        getItem.then((res) => {
+            const product = { ...res.data(), id: res.id };
+            setItems(product);
+        });
     }, [id]);
 
     return (
         <section className="w-screen h-full pb-6 bg-neutral-300 dark:bg-neutral-900">
-            {items.length === 0 ? <Loading /> : <ItemDetail items={items} />}
+            {items.length === 0 ? (
+                <Loading />
+            ) : (
+                <ItemDetail
+                    items={items}
+                    setCounter={setCounter}
+                    counter={counter}
+                    setSize={setSize}
+                    size={size}
+                />
+            )}
         </section>
     );
 };
