@@ -19,7 +19,7 @@ const Item = ({item}) => {
                     ${price}
                 </h4>
                 <button className="bg-neutral-400 p-2 font-signature text-xl hover:bg-orange-600 shadow-lg shadow-black duration-200">
-                    <Link to={"/item/" + id}>VER MAS</Link>
+                    <Link to={"/item/" + id}>See More</Link>
                 </button>
             </div>
         </div>

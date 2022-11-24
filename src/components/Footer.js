@@ -26,12 +26,12 @@ const Footer = () => {
 
             <div className="">
                 <h4 className="text-white">Socials</h4>
-                <a href="https://www.instagram.com/" target="_blank">
+                <p>
                     <BsInstagram size={20} className="text-white my-2" />
-                </a>
-                <a href="https://twitter.com/home" target="_blank" >
+                </p>
+                <p >
                     <BsTwitter size={20} className="text-white" />
-                </a>
+                </p>
             </div>
         </div>
     );

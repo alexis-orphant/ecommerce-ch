@@ -34,7 +34,7 @@ const BuyTicket = ({ order }) => {
                             <li key={item.id} className="ml-4 text-left">
                                 {item.title}{" "}
                                 <span className="ml-4">
-                                    quantity: {item.quantity}
+                                    Quantity: {item.quantity}
                                 </span>{" "}
                                 <span className="ml-4">
                                     Total: {item.price * item.quantity}
@@ -55,7 +55,7 @@ const BuyTicket = ({ order }) => {
             <div className="mx-auto text-center">
                 <Link to="/">
                     <button className="bg-neutral-400 p-2 font-signature text-2xl rounded-lg hover:bg-orange-600 duration-200">
-                        Volver a la página de inicio
+                        Return To Homepage
                     </button>
                 </Link>
             </div>
