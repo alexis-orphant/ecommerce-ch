@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import CartContextProvider from "./cartContext/CartContext";
 import CartFormContainer from "./components/cart/cartForm/CartFormContainer";
 import { ToastContainer } from "react-toastify";
-  import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
     return (
