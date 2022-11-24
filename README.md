@@ -16,10 +16,29 @@ En la pagina principal [https://best-commerce-ch.netlify.app/](https://best-comm
  6. Listado de productos comprados, con cantidad de unidades y precio total
  7. Cantidad total de productos
  8. Precio total de la compra
+ 
+ ## Instalación
+
+- Para empezar el proyecto usamos: 
+> npx create-react-app my-app
+- Para empezar a correr la aplicación en el [localhost:3000](http://localhost:3000/) y verla en el navegador
+> npm start
+- Para instalar Tailwind Css
+> npm install -D tailwindcss
+- Para instalar React Router 
+> npm install react-router-dom
+- Para instalar luxon
+> npm install luxon
+- Para instalar Firebase
+> npm install firebase
+- Para instalar React Icons
+> npm  install react-icons
+- Para instalar React Toastify 
+> npm install --save react-toastify
 
 ## Librerías usadas y utilidades usadas en el proyecto
 
- - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router DOM](https://reactrouter.com/en/main) 
+ - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router](https://reactrouter.com/en/main) 
 
     Esta librería fue usada para el manejo dinámico de las rutas de la página
  
