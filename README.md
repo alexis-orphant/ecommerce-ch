@@ -17,6 +17,9 @@ En la pagina principal [https://best-commerce-ch.netlify.app/](https://best-comm
  7. Cantidad total de productos
  8. Precio total de la compra
  
+ ![funcionamiento](https://user-images.githubusercontent.com/104010103/203831615-f3dd6458-d4d6-4155-a812-7ba198be039c.gif)
+
+ 
  ## Instalación
 
 - Para empezar el proyecto usamos: 
