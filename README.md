@@ -1,6 +1,8 @@
 # Proyecto React Js e-commerce
 Este proyecto simula un ecommerce de venta de ropa deportiva. Esta desarrollado en **React Js** mediante el comando **npx create-react-app** y también se usaron varias librerías según las necesidades del proyecto 
 
+## Funcionamiento de la página
+
 ## Librerías usadas y utilidades usadas en el proyecto
 
  - [React Router DOM](https://reactrouter.com/en/main)
@@ -20,3 +22,6 @@ Este proyecto simula un ecommerce de venta de ropa deportiva. Esta desarrollado 
  
  - [React toastify](https://github.com/fkhadra/react-toastify#readme)
 Proporciona las alertas al hacer click en algunos botones 
+
+## Link del proyecto
+ - [Best-commer](https://best-commerce-ch.netlify.app/)
