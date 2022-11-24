@@ -36,7 +36,7 @@ En la pagina principal [https://best-commerce-ch.netlify.app/](https://best-comm
 - Para instalar React Toastify 
 > npm install react-toastify
 
-## Librerías usadas y utilidades usadas en el proyecto
+## Librerías / Tecnologías y utilidades usadas en el proyecto
 
  - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) [React Router](https://reactrouter.com/en/main) 
 
