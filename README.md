@@ -18,7 +18,8 @@ Este proyecto simula un ecommerce de venta de ropa deportiva. Esta desarrollado 
    Fue instalado para el un manejo más fácil de las fechas y también para generarlas más fácil
  
  - ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) [Firebase](https://firebase.google.com/?hl=es-419&gclid=CjwKCAiApvebBhAvEiwAe7mHSF3Z-yK9Z9o8bfGAOv8YE50k52Vft-S9H1OgXuf3l_wF3hWda6-mvhoCzYgQAvD_BwE&gclsrc=aw.ds)
- Firebase brinda a la página la base de datos que usamos para mostrar los productos y también es a donde se envían las ordenes de compra
+ 
+    Firebase brinda a la página la base de datos que usamos para mostrar los productos y también es a donde se envían las ordenes de compra
  
  - [React Icons](https://react-icons.github.io/react-icons/)
 
