@@ -34,7 +34,7 @@ En la pagina principal [https://best-commerce-ch.netlify.app/](https://best-comm
 - Para instalar React Icons
 > npm  install react-icons
 - Para instalar React Toastify 
-> npm install --save react-toastify
+> npm install react-toastify
 
 ## Librerías usadas y utilidades usadas en el proyecto
 
